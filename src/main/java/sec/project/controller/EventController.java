@@ -30,15 +30,4 @@ public class EventController {
         return "event";
     }
         
-  //  @RequestMapping(value = "/event", method = RequestMethod.POST)
- //   public String list(Model model, Principal principal, @RequestParam(required = false) String search) {
- //       List<Signup> participants;       
- //       if(search!= null) {
- //           participants = signupRepository.customFind(principal.getName(), search);
- //       }
- //       model.addAttribute("participants", participants);
- //       model.addAttribute("search", search);
- //       return "event";
- //   }
-        
 }
